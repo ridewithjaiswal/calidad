@@ -1,6 +1,5 @@
 import sqlite3
 from flask import Flask, render_template, request, redirect, jsonify, session, flash, url_for
-from flask_sqlalchemy import SQLAlchemy
 
 
 app = Flask(__name__)
